@@ -1,1 +1,10 @@
-
+def printOdd(a):
+    x = 1
+    for i in range(a):
+        print(x)
+        x += 2
+print("Enter a number: ")
+a = int(input())
+print("Problem 3")
+if(a%2 == 0): a -= 1
+printOdd(a)
